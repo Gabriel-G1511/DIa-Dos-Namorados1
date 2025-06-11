@@ -4,60 +4,74 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Feliz Dia dos Namorados</title>
- <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Great+Vibes&display=swap" rel="stylesheet">
-<style>
-  body {
-    margin: 0;
-    font-family: 'Playfair Display', serif;
-    background-color: #fff8f5;
-    color: #333;
-    line-height: 1.8;
-  }
-  .secao {
-    padding: 60px 20px;
-    text-align: center;
-  }
-  .secao h1, .secao p {
-    max-width: 800px;
-    margin: 0 auto 20px;
-    font-size: 1.4em;
-  }
-  .secao img {
-    max-width: 60%;
-    display: block;
-    margin: 30px auto;
-    border-radius: 16px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  }
-  .capa {
-    background: linear-gradient(to bottom right, #ffe4e1, #fff0f5);
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-  .capa h1 {
-    font-size: 3em;
-    color: #c71585;
-    font-family: 'Great Vibes', cursive;
-  }
-  .final {
-    background-color: #fae6eb;
-    font-weight: bold;
-    font-size: 1.5em;
-    padding: 80px 20px;
-    border-top: 4px solid #c71585;
-  }
-  @media (max-width: 768px) {
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      background-color: #fff8f5;
+      color: #333;
+      line-height: 1.8;
+    }
+    .secao {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .secao h1, .secao p {
+      max-width: 800px;
+      margin: 0 auto 20px;
+      font-size: 1.4em;
+    }
     .secao img {
-      max-width: 90%;
+      max-width: 60%;
+      display: block;
+      margin: 30px auto;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .capa {
+      background: linear-gradient(to bottom right, #ffe4e1, #fff0f5);
+      padding-top: 100px;
+      padding-bottom: 100px;
     }
     .capa h1 {
-      font-size: 2.2em;
+      font-size: 3em;
+      color: #c71585;
+      font-family: 'Great Vibes', cursive;
     }
-    .secao p {
-      font-size: 1.2em;
+    .final {
+      background-color: #fae6eb;
+      font-weight: bold;
+      font-size: 1.5em;
+      padding: 80px 20px;
+      border-top: 4px solid #c71585;
     }
-  }
-</style>
+    .final p {
+      font-size: 1.3em;
+      line-height: 1.6;
+      font-style: italic;
+      color: #b34773;
+      max-width: 700px;
+      margin: 20px auto;
+    }
+    .assinatura {
+      margin-top: 40px;
+      font-family: 'Great Vibes', cursive;
+      font-size: 2em;
+      color: #c71585;
+    }
+    @media (max-width: 768px) {
+      .secao img {
+        max-width: 90%;
+      }
+      .capa h1 {
+        font-size: 2.2em;
+      }
+      .secao p {
+        font-size: 1.2em;
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -88,16 +102,17 @@
     <img src="img.jpg" alt="Momentos felizes">
   </section>
 
-    <section class="secao final">
-  <p style="font-size: 1.3em; line-height: 1.6; font-style: italic; color: #b34773; max-width: 700px; margin: 0 auto;">
-    O tempo passa, a vida muda, mas uma coisa permanece constante: o quanto eu te amo.<br>
-    Você não é só parte da minha história — você é o ponto alto dela.<br>
-    Com você, descobri que o verdadeiro amor não é feito de perfeição, mas de cuidado diário, de riso sincero, de abraço depois do caos.<br>
-    Obrigado por ser meu lar, minha parceira, meu presente mais valioso.<p>
-do seu parceiro de vida<p>Gabriel Gonçalves 
-  </p>
-  <img src="amor.jpg" alt="Final romântico">
-</section>
-    
+  <section class="secao final">
+    <p>O tempo passa, a vida muda, mas uma coisa permanece constante: o quanto eu te amo.</p>
+    <p>Você não é só parte da minha história — você é o ponto alto dela.</p>
+    <p>Com você, descobri que o verdadeiro amor não é feito de perfeição, mas de cuidado diário, de riso sincero, de abraço depois do caos.</p>
+    <p>Obrigado por ser meu lar, minha parceira, meu presente mais valioso.</p>
+    <div class="assinatura">
+      Do seu parceiro de vida,<br>
+      Gabriel Gonçalves
+    </div>
+    <img src="amor.jpg" alt="Final romântico">
+  </section>
+
 </body>
 </html>
